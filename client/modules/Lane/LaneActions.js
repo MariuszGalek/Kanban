@@ -31,3 +31,10 @@ export function deleteLane(laneId) {
     laneId
   };
 }
+
+export function editLane(laneId) {
+  return {
+    type: EDIT_LANE,
+    laneId,
+  };
+}
