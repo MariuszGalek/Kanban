@@ -9,6 +9,7 @@ export const CREATE_LANES = 'CREATE_LANES';
 export const UPDATE_LANE = 'UPDATE_LANE';
 export const DELETE_LANE = 'DELETE_LANE';
 export const EDIT_LANE = 'EDIT_LANE';
+export const FETCH_LANES = "FETCH_LANES";
 
 // Export Actions
 
@@ -55,7 +56,7 @@ export function updateLaneRequest(lane) {
 export function deleteLane(laneId) {
   return {
     type: DELETE_LANE,
-    laneId
+    laneId,
   };
 }
 
