@@ -4,6 +4,7 @@ import Lane from './LaneContainer.js';
 import styles from './Lane.css';
 
 const Lanes = ({ lanes }) => {
+  console.log(lanes)
   return (
     <div className="lanes">{lanes.map(lane =>
       <Lane className="lane" key={lane.id} lane={lane} />

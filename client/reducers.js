@@ -13,4 +13,6 @@ import notes from './modules/Note/NoteReducer';
 export default combineReducers({
   app,
   intl,
+  lanes,
+  notes
 });
