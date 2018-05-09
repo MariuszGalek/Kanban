@@ -33,7 +33,6 @@ Kanban.propTypes = {
 };
 
 const mapStateToProps = state => 
-
   ({
   lanes: Object.values(state.lanes)
 });
