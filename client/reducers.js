@@ -14,5 +14,5 @@ export default combineReducers({
   app,
   intl,
   lanes,
-  notes
+  notes,
 });

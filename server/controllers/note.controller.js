@@ -60,7 +60,7 @@ export function updateNote(req, res) {
 
   Note.findOne({ id: req.params.noteId })
     .then(note => {
-      note.update({ task: req.body.task }, (err, resp) => {
+      note.update({ task: req.body.task }, (err) => {
         if (err) {
           res.status(500).send(err);
         }
